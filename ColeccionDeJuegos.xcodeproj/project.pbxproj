@@ -12,6 +12,8 @@
 		E87F8709227244330047767F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87F8707227244330047767F /* Main.storyboard */; };
 		E87F870B227244350047767F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87F870A227244350047767F /* Assets.xcassets */; };
 		E87F870E227244350047767F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87F870C227244350047767F /* LaunchScreen.storyboard */; };
+		E87F871822724E730047767F /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F871722724E730047767F /* JuegosViewController.swift */; };
+		E87F871B227252810047767F /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E87F8719227252810047767F /* ColeccionDeJuegos.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E87F870A227244350047767F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87F870D227244350047767F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87F870F227244350047767F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87F871722724E730047767F /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
+		E87F871A227252810047767F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		E87F8702227244330047767F /* ColeccionDeJuegos */ = {
 			isa = PBXGroup;
 			children = (
+				E87F871722724E730047767F /* JuegosViewController.swift */,
 				E87F8703227244330047767F /* AppDelegate.swift */,
 				E87F8705227244330047767F /* ViewController.swift */,
 				E87F8707227244330047767F /* Main.storyboard */,
 				E87F870A227244350047767F /* Assets.xcassets */,
 				E87F870C227244350047767F /* LaunchScreen.storyboard */,
 				E87F870F227244350047767F /* Info.plist */,
+				E87F8719227252810047767F /* ColeccionDeJuegos.xcdatamodeld */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87F871822724E730047767F /* JuegosViewController.swift in Sources */,
 				E87F8706227244330047767F /* ViewController.swift in Sources */,
 				E87F8704227244330047767F /* AppDelegate.swift in Sources */,
+				E87F871B227252810047767F /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E87F8719227252810047767F /* ColeccionDeJuegos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E87F871A227252810047767F /* Model.xcdatamodel */,
+			);
+			currentVersion = E87F871A227252810047767F /* Model.xcdatamodel */;
+			path = ColeccionDeJuegos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E87F86F8227244330047767F /* Project object */;
 }
